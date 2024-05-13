@@ -9,6 +9,6 @@ object Solution00003:
     if (r == s.length)
       maxLen
     else if (chars(s(r)))
-      lengthOfLongestSubstring(s, chars - s(l), r, l + 1, maxLen)
+      lengthOfLongestSubstring(s, chars - s(l), l + 1, r, maxLen)
     else
       lengthOfLongestSubstring(s, chars + s(r), l, r + 1, maxLen max (r - l + 1))
